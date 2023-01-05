@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Customize the scroll-bar</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/store.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="heading">
+			<ul>
+				<li><a href="index_.html" class="under">Home</a></li>
+				<li><a href="store.html" class="under">Store Locator</a></li>
+				<li><a href="contactus.html" class="under">Contact Us</a></li>
+				<li><a href="franchise.html" class="under">Franchise Enquiry</a></li>
+				<li class="cart"><a href="#" class="under">Cart</a></li>
+				<li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"
+						class="button">Login</button></li>
+				<div id="id01" class="modal">
+
+					<form class="modal-content animate" name="form" action="/action_page.php" method="post">
+						<div class="imgcontainer">
+							<span onclick="document.getElementById('id01').style.display='none'" class="close"
+								title="Close Modal">&times;</span>
+							<img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+						</div>
+
+						<div class="container">
+							<label for="Mobile no."><b>Mobile Number</b></label>
+							<input type="text" placeholder="10 Digit Mobile No" name="phone" required>
+							<button type="submit" name="sub" value="Submit">VALIDATE</button>
+
+
+						</div>
+					</form>
+				</div>
+
+			</ul>
+		</div>
+	</header>
+	<center>
+		<p>Our Shop
+		<p>Location</p>
+		</p>
+		<div class="map">
+			<!-- Google Map Copied Code -->
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10871.014138249828!2d72.62717378020635!3d23.161044185944196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e813d5622cc07%3A0xc309f02468b7721d!2sBRITISH%20PIZZA%20GANDHINAGAR!5e1!3m2!1sen!2sin!4v1664734983951!5m2!1sen!2sin"
+				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</center>
+
+
+	<div class="last_p">
+		<h2>GET IN TOUCH</h2>
+		<div class="content">
+			<div class="address">
+				<div class="logo">
+					<i class="fa fa-map-marker" style="font-size:20px"></i>
+				</div>
+				<h3>ADDRESS</h3>
+				<div class="material">
+					<p>2300 Bernadette Dr, <br>
+						Columbia,<br>
+						Mississippi-65203,<br>
+						United States
+					</p>
+				</div>
+
+			</div>
+			<div class="phone">
+				<div class="logo">
+					<i class="fa fa-phone" style="font-size:20px"></i>
+				</div>
+				<h3>PHONE</h3>
+				<div class="material">
+					<p>
+						(573) 446-7374, (972) 682-6378,<br>
+						(502) 839-1122
+					</p>
+				</div>
+
+
+			</div>
+			<div class="mail">
+				<div class="logo">
+					<i class="fa fa-envelope" aria-hidden="true" style="font-size: 18px;"></i>
+				</div>
+				<h3>EMAIL</h3>
+				<div class="material">
+					<p>
+						soyoh37463@kahase.com,<br>
+						mayacah637@lankew.com</p>
+
+				</div>
+
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<script>
+
+		var modal = document.getElementById('id01');
+
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/franchise.css">
+
+    <style>
+
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>About us</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <ul>
+                <li><a href="index_.html" class="under">Home</a></li>
+                <li><a href="store.html" class="under">Store Locator</a></li>
+                <li><a href="contactus.html" class="under">Contact Us</a></li>
+                <li><a href="franchise.html" class="under">Franchise Enquiry</a></li>
+                <li class="cart"><a href="#" class="under">Cart</a></li>
+                <li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"
+                        class="button">Login</button></li>
+                <div id="id01" class="modal">
+
+                    <form class="modal-content animate" name="form" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Close Modal">&times;</span>
+                            <img src="../images/img_avatar2.png" alt="Avatar" class="avatar">
+                        </div>
+
+                        <div class="container">
+                            <label for="Mobile no."><b>Mobile Number</b></label>
+                            <input type="text" placeholder="10 Digit Mobile No" name="phone" required>
+                            <button type="submit" name="sub" value="Submit">VALIDATE</button>
+
+
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </ul>
+        </div>
+    </header>
+    <div class="team-section">
+
+        <div class="ourteam-inner">
+            <div class="section-box box1">
+                <img class="img" src="../images/img_avatar2.png" alt="">
+                <h2>HELLO, I'M<Main>XYX WRE</Main>
+                </h2>
+                <p id="ki">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis obcaecati debitis sit
+                    eius fugiat? Provident vero expedita impedit recusandae soluta.</p>
+
+                <div class="team-social-links">
+                    <a href="#" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="#" target="_blank" class="fa fa-facebook"></a>
+                    <a href="#" target="_blank" class="fa fa-twitter"></a>
+                    <a href="#" target="_blank" class="fa fa-instagram"></a>
+                </div>
+            </div>
+            <div class="section-box box2">
+                <h4 id="h4">About Us</h4>
+                <p id="p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo quas iste vitae
+                    expedita voluptates nemo fugit similique laudantium perspiciatis temporibus, in alias et, tempore ab
+                    earum quis magnam nihil voluptatum. Ullam, adipisci provident? Aliquid omnis aspernatur velit itaque
+                    porro delectus odit adipisci sapiente sint, ipsum explicabo accusantium optio veritatis?
+                </p>
+                <a href="tel:9145980211">
+                    <button id="contact">Contact</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var modal = document.getElementById('id01');
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

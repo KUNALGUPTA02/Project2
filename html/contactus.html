@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Contact us</title>
+
+</head>
+
+<body>
+
+    <div class="body">
+
+
+        <header>
+            <div class="heading">
+                <ul>
+                    <li><a href="index_.html" class="under">Home</a></li>
+                    <li><a href="store.html" class="under">Store Locator</a></li>
+                    <li><a href="contactus.html" class="under">Contact Us</a></li>
+                    <li><a href="franchise.html" class="under">Franchise Enquiry</a></li>
+                    <li class="cart"><a href="#" class="under">Cart</a></li>
+                    <li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"
+                            class="button">Login</button></li>
+                    <div id="id01" class="modal">
+
+                        <form class="modal-content animate" name="form" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                    title="Close Modal">&times;</span>
+                                <img src="../images/img_avatar2.png" alt="Avatar" class="avatar">
+                            </div>
+
+                            <div class="container">
+                                <label for="Mobile no."><b>Mobile Number</b></label>
+                                <input type="text" placeholder="10 Digit Mobile No" name="phone" required>
+                                <button type="submit" name="sub" value="Submit" class="button1">VALIDATE</button>
+
+
+                            </div>
+
+
+                        </form>
+                    </div>
+
+                </ul>
+            </div>
+        </header>
+
+        <div>
+            <h1 class="heading1">Contact us</h1>
+        </div>
+
+        <div class="part">
+            <div class="image">
+                <img src="../images/contact-us-img.png" alt="example image">
+            </div>
+            <!-- <div class="writen">
+                <h2>we are hear for you</h2>
+            </div> -->
+            <div class="info">
+                <form action="Form.php">
+
+                    <label for="name" class="head">Your Name:</label><br>
+                    <input type="text" id="name" class="name" name="name" style="color: white;"><br>
+                    <label for="email" class="head">Email:</label><br>
+                    <input type="text" id="email" class="email" name="email"><br>
+                    <label for="message" class="head">Message</label><br>
+                    <textarea name="message" id="message" class="message" cols="30" rows="10"></textarea><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="last_p">
+            <h2>GET IN TOUCH</h2>
+            <div class="content">
+                <div class="address">
+                    <div class="logo">
+                        <i class="fa fa-map-marker" style="font-size:20px"></i>
+                    </div>
+                    <h3>ADDRESS</h3>
+                    <div class="material">
+                        <p>2300 Bernadette Dr, <br>
+                            Columbia,<br>
+                            Mississippi-65203,<br>
+                            United States
+                        </p>
+                    </div>
+
+                </div>
+                <div class="phone">
+                    <div class="logo">
+                        <i class="fa fa-phone" style="font-size:20px"></i>
+                    </div>
+                    <h3>PHONE</h3>
+                    <div class="material">
+                        <p>
+                            (573) 446-7374, (972) 682-6378,<br>
+                            (502) 839-1122
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="mail">
+                    <div class="logo">
+                        <i class="fa fa-envelope" aria-hidden="true" style="font-size: 18px;"></i>
+                    </div>
+                    <h3>EMAIL</h3>
+                    <div class="material">
+                        <p>
+                            soyoh37463@kahase.com,<br>
+                            mayacah637@lankew.com</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var modal = document.getElementById('id01');
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

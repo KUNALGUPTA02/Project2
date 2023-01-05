@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <ul>
+                <li><a href="index_.html" class="under">Home</a></li>
+                <li><a href="store.html" class="under">Store Locator</a></li>
+                <li><a href="contactus.html" class="under">Contact Us</a></li>
+                <li><a href="franchise.html" class="under">Franchise Enquiry</a></li>
+                <li class="cart"><a href="#" class="under">Cart</a></li>
+                <li><button onclick="document.getElementById('id01').style.display='block'"
+                        style="width:auto;">Login</button></li>
+                <div id="id01" class="modal">
+
+                    <form class="modal-content animate" name="form" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Close Modal">&times;</span>
+                            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                        </div>
+
+                        <div class="container">
+                            <label for="Mobile no."><b>Mobile Number</b></label>
+                            <input type="text" placeholder="10 Digit Mobile No" name="phone" required>
+                            <button type="submit" name="sub" value="Submit">VALIDATE</button>
+
+
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="../images/banner1.jpg" style="width:100%">
+                <div class="text he">
+                    MORE THAN 50+ OUTLETS <br>
+                    <span style="color: yellow;">LIVE AROSS YOUR STATE</span>
+                </div>
+
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../images/banner3.jpg" style="width:100%">
+                <div class="text he">WE HAVE MORE THAN 10 OUTLETS <br><span style="color: yellow;">IN YOUR CITY</span>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../images/banner2.jpg" style="width:100%">
+                <div class="text he">The GIANT PIZZA SLICES
+                    <br> <span style="color: yellow;">NOW AVAILABLE IN YOUR AREA</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <section>
+        <div class="cont1">
+            <div class="uprhead">
+                <h3 class="commn_he">Deals and Offers</h3>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides2 ">
+                    <div class="cont">
+                        <div class="cont_p1">
+                            <a href="#"><img src="../images/deals-banner.jpg" class="deal_img"></a>
+                        </div>
+                        <div class="cont_p1">
+                            <a href="#"> <img src="../images/deals-banner-two.jpg" class="deal_img"></a>
+                        </div>
+                        <div class="cont_p1">
+                            <a href="#"></a><img src="../images/deals-banner-three.jpg" class="deal_img"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides2 mySlides1">
+                    <div class="cont">
+                        <div class="cont_p1">
+                            <a href="#"><img src="../images/deals-banner-four.jpg" class="deal_img"></a>
+
+                        </div>
+                        <div class="cont_p1">
+                            <a href="#"><img src="../images/deals-banner-five.jpg" class="deal_img"></a>
+                        </div>
+                        <div class="cont_p1">
+                            <a href="#"><img src="../images/deals-banner.jpg" class="deal_img"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot1 " onclick="current_Slide(1)"></span>
+                    <span class="dot1" onclick="current_Slide(2)"></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <h1>SUDHANSHU GUPTA</h1>
+
+    <section>
+        <div class="cont1">
+            <div class="uprhead">
+                <h3 class="commn_he">Best Sellers</h3>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides3">
+                    <div class="cont">
+                        <div class="cont_p1">
+                            <div class="img img1">
+                                <img src="../images/image-7139-1654761655.jpg" class="deal_img1" />
+                                <input type="button" name="" value="Add To Cart" class="add" />
+                            </div>
+                            <div class="wrt"><span><b>Country Side Pizza</b>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cont_p1">
+                            <div class="img img2">
+                                <img src="../images/image-6672-1654761670.jpg" class="deal_img1">
+                                <input type="button" name="" value="Add To Cart" class="add">
+                            </div>
+                            <div class="wrt"><span><b>Korma Special Pizza</b>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cont_p1">
+                            <div class="img img3">
+                                <img src="../images/image-7493-1654761662.jpg" class="deal_img1">
+                                <input type="button" name="" value="Add To Cart" class="add">
+                            </div>
+                            <div class="wrt"><span><b>Paneer Tikka Butter Masala Pizza </b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides3 mySlides1">
+                    <div class="cont">
+                        <div class="cont_p1">
+                            <div class="img img4">
+                                <img src="../images/image-8255-1654761665.jpg" class="deal_img1">
+                                <input type="button" name="" value="Add To Cart" class="add">
+                            </div>
+                            <div class="wrt"><span><b>Farm Villa Pizza</b>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cont_p1">
+                            <div class="img img5">
+                                <img src="../images/image-1578568978.jpeg" class="deal_img1">
+                                <input type="button" name="" value="Add To Cart" class="add">
+                            </div>
+                            <div class="wrt"><span> <b>Cheezy - 7 Pizza</b>
+
+                                </span></div>
+                        </div>
+                        <div class="cont_p1">
+                            <div class="img img6">
+                                <a href="#"><img src="../images/spring.jpeg" class="deal_img1"></a>
+                                <input type="button" name="" value="Add To Cart" class="add">
+                            </div>
+                            <div class="wrt"><span><b>Spring Fling Pizza</b>
+
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">
+                     </a>
+                        <a class="next" onclick="plusSlides(1)">></a>
+                        <br>
+                        <br>
+                        <div style="text-align:center">
+                            <span class="dot2 " onclick="current__Slide(1)"></span>
+                            <span class="dot2" onclick="current__Slide(2)"></span>
+                        </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function currentSlide(n) {
+            show_Slides(slideIndex = n);
+        }
+        function show_Slides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 5000);
+        }
+
+        var modal = document.getElementById('id01');
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        function current_Slide(n) {
+            show__Slides(slideIndex = n);
+        }
+
+        function show__Slides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides2");
+            let dots = document.getElementsByClassName("dot1");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        // show___Slides(slideIndex);
+
+        function plusSlides(n) {
+            show___Slides(slideIndex += n);
+        }
+
+        function current__Slide(n) {
+            show___Slides(slideIndex = n);
+        }
+
+        function show___Slides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides3");
+            let dots = document.getElementsByClassName("dot2");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
